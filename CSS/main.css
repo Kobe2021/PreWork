@@ -62,3 +62,6 @@ li a{
 a{
     background-color: #dddddd;
 }
+.child{
+    display: inline-block;
+}
