@@ -55,7 +55,7 @@ li a{
     display: block;
     width: 120px;
     background-color: #dddddd;
-    font-color: purple;
+    color: purple;
     font-size: large;
     font-style: italic;
 }
@@ -64,4 +64,9 @@ a{
 }
 .child{
     display: inline-block;
+    transition: box-shadow .3s;
+
+}
+.child:hover{
+    box-shadow: 0 0 20px rgba(17, 17, 17, 0.805);
 }
