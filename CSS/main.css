@@ -8,9 +8,12 @@ body{
     background-color: orange;
     font-family: courier;
 }
-nav{
-    width: 200px;
-    position: relative;
+nav a {
+    line-height: 3rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
 ul{
     /* display: none; */
